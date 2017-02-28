@@ -27,7 +27,6 @@ namespace App1
 
             button.Click += delegate { button.Text = string.Format("我们的小安琪{0}岁啦!", count++); };
 
-            //teststestsetstsetstststestststest
         }
     }
 }
