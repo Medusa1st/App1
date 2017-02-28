@@ -26,6 +26,7 @@ namespace App1
             Button button = FindViewById<Button>(Resource.Id.MyButton);
 
             button.Click += delegate { button.Text = string.Format("我们的小安琪{0}岁啦!", count++); };
+
         }
     }
 }
