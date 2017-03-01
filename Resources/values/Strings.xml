@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="Hello">小安琪, 长大啦!</string>
-    <string name="ApplicationName">App222</string>
+    <string name="GrowUp">小安琪, 长大啦!</string>
+    <string name="Reset">重新开始</string>
+    <string name="ApplicationName">小安琪成长记</string>
 </resources>

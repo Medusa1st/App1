@@ -24,9 +24,18 @@ namespace App1
 
             // Get our button from the layout resource,
             // and attach an event to it
-            Button button = FindViewById<Button>(Resource.Id.MyButton);
+            Button m_GrowUp = FindViewById<Button>(Resource.Id.MyButton);
 
-            button.Click += delegate { button.Text = string.Format("我们的小安琪{0}岁啦!", count++); };
+            m_GrowUp.Click += delegate { m_GrowUp.Text = string.Format("我们的小安琪{0}岁啦!", count++); };
+
+            Button m_Reset = FindViewById<Button>(Resource.Id.btnReset);
+
+            m_Reset.Click += delegate 
+            {
+                m_GrowUp.Text = GetString(Resource.String.GrowUp);
+                count = 1;
+            };
+
 
         }
     }

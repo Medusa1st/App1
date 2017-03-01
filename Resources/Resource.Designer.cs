@@ -70,7 +70,7 @@ namespace App1
 			public const int btnReset = 2131034113;
 			
 			// aapt resource value: 0x7f050002
-			public const int imageView1 = 2131034114;
+			public const int imvShow = 2131034114;
 			
 			static Id()
 			{
@@ -101,11 +101,14 @@ namespace App1
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f040001
-			public const int ApplicationName = 2130968577;
+			// aapt resource value: 0x7f040002
+			public const int ApplicationName = 2130968578;
 			
 			// aapt resource value: 0x7f040000
-			public const int Hello = 2130968576;
+			public const int GrowUp = 2130968576;
+			
+			// aapt resource value: 0x7f040001
+			public const int Reset = 2130968577;
 			
 			static String()
 			{
